@@ -92,7 +92,7 @@ export class DeltaEngine {
                 setTimeout(() => {
                     row.classList.remove('financials__row--updated');
                 }, 1000); // Visual flare duration
-            }, 0);
+            }, 1000);
         }
     }
 
