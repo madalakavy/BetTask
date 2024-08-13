@@ -1,0 +1,40 @@
+/* src/FinancialsGrid.css */
+
+.financials__table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.financials__header-row {
+    background-color: #f4f4f4;
+}
+
+.financials__header {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.financials__row {
+    background-color: transparent;
+}
+
+.financials__row--updated {
+    background-color: #ffff99; /* Visual flare color */
+}
+
+.financials__row--new {
+    background-color: #ccffcc; /* New row color */
+    
+}
+
+.financials__cell {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: right;
+}
+
+.financials__cell:first-child,
+.financials__cell:nth-child(2) {
+    text-align: left;
+}

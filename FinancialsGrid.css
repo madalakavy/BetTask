@@ -1,0 +1,34 @@
+.financials__container {
+    padding: 20px;
+}
+
+.financials__table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.financials__header-row {
+    background-color: #f4f4f4;
+}
+
+.financials__header {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.financials__row {
+    border-bottom: 1px solid #ddd;
+}
+
+.financials__cell {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: right;
+}
+
+.financials__cell--name,
+.financials__cell--company-name {
+    text-align: left;
+}
